@@ -6,7 +6,7 @@ module.exports = {
         db: 'mongodb://localhost/mean-dev',
         root: rootPath,
         app: {
-            name: 'MEAN - A Modern Stack - Development'
+            name: 'MMO-Question-Game! - dev'
         },
         facebook: {
             clientID: "APP_ID",
@@ -33,7 +33,7 @@ module.exports = {
         db: 'mongodb://localhost/mean-test',
         root: rootPath,
         app: {
-            name: 'MEAN - A Modern Stack - Test'
+            name: 'MMO-Question-Game! - test'
         },
         facebook: {
             clientID: "APP_ID",
@@ -60,7 +60,7 @@ module.exports = {
         db: 'mongodb://localhost/mean',
         root: rootPath,
         app: {
-            name: 'MEAN - A Modern Stack - Production'
+            name: 'MMO-Question-Game!'
         },
         facebook: {
             clientID: "APP_ID",
