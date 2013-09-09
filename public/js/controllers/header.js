@@ -12,9 +12,9 @@ function HeaderController($scope, $location, Global) {
 
     };
 
-    $scope.isSelected = function(item) {        
+    $scope.isSelected = function(item) {
         if ($location.path() == "/"+item.link) {
-            return "active"
-        } else return ""
-    }
+            return "active";
+        } else return "";
+    };
 }
