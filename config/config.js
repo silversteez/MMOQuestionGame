@@ -3,7 +3,7 @@ var path = require('path'),
 
 module.exports = {
     development: {
-        db: 'mongodb://localhost/mean-dev',
+        db: 'mongodb://localhost/mmoff-dev',
         root: rootPath,
         app: {
             name: 'MMO-Question-Game! - dev'
@@ -30,7 +30,7 @@ module.exports = {
         }
     },
     test: {
-        db: 'mongodb://localhost/mean-test',
+        db: 'mongodb://localhost/mmoff-test',
         root: rootPath,
         app: {
             name: 'MMO-Question-Game! - test'
@@ -57,7 +57,7 @@ module.exports = {
         }
     },
     production: {
-        db: 'mongodb://localhost/mean',
+        db: 'mongodb://localhost/mmoff',
         root: rootPath,
         app: {
             name: 'MMO-Question-Game!'

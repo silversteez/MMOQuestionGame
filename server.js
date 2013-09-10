@@ -46,5 +46,7 @@ console.log('Express app started on port ' + port);
 //Initializing logger 
 logger.init(app, passport, mongoose);
 
+require('./app/controllers/questions').populate();
+
 //expose app
 exports = module.exports = app;

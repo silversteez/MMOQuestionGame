@@ -37,7 +37,7 @@ var QuestionSchema = new Schema({
     },
     asked: {
         type: Date,
-        default: Date.now
+        default: null
     },
     question: {
         type: String,
